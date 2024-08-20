@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding and Subtracting 1 from given number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Addition and subtarction from a given number</h1>
+    <div class="container">
+        <div class="controls">
+            <label for="initialNumber" style="font-size: 25px;">Enter a number :</label>
+            <input type="number" id="initialNumber" min="0" max="150">
+            <br>
+            <button id="setNumberBtn">Confirm Number</button>
+        </div>
+        <div class="controls">
+            <button id="subtractBtn">Subtract 1</button>
+            <span id="numberDisplay">Your number</span>
+            <button id="addBtn">Add 1</button>
+        </div>
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+        <div class="history-controls">
+            <button id="undoBtn">Undo</button>
+            <button id="redoBtn">Redo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
